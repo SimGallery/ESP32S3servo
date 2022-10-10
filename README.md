@@ -14,7 +14,13 @@
 
 ## Example 
 ```cpp
-TEST()
+s3servo servo;
+
+servo.attach(ioPin); //Automatically enter parameters (0,180,500,2000)
+//servo.attach(ioPin,channel,min_angle,max_angle,min_pulseWidth,max_pulseWidth); // Manually enter parameters
+
+servo.write(int Angle);
+//servo.writeDuty(int Duty); // More sophisticated operation is possible by typing Dutycycle directly.
 ```
 
 ## In future
