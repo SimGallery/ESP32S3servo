@@ -24,5 +24,5 @@ servo.write(int Angle);
 ```
 
 ## In future
--MCPWM에 대하여 아직 읽어보지 않았다. LEDC보다 더 효율적이고 정확하다면 수정할것이다. 게다가 BLDC모터를 서보처럼 동착하는 코드도 추가 할 계획이다.<br>
--I haven't read about MCPWM yet. If it is more efficient and accurate than LEDC, it will be modified. In addition, it plans to add a code that makes the BLDC motor come up like a servo.
+-MCPWM에 대하여 esp32s3의 데이터시트를 아직 읽어보지 않았다. ESP-IDF에서 말고 arduino-esp32 에서 MCPWM를 지원하며 LEDC보다 더 효율적고 정확하다면 코드를 추가할것이다. 게다가 BLDC모터를 서보처럼 동착하는 코드도 추가 할 계획이다. (그러면 리파짓토리 이름을 바꿔야할텐데..)<br>
+-I have not yet read the data sheet of esp32s3 for MCPWM. It supports MCPWM on arduino-esp32 instead of ESP-IDF and will add code if it is more efficient and accurate than LEDC. In addition, it plans to add a code that makes the BLDC motor come up like a servo. (Then we should change the name of repository...)
