@@ -3,10 +3,10 @@ Esp32 and esp32s3 of espressif are similar and different. Although I tried to op
 espressif사의 Esp32와 esp32s3는 비슷하면서 다르다. 나는 esp32s3를 사용하여 서보 모터를 작동하려고 했지만, 기존 오픈 소스 라이브러리는 esp32s3를 지원하지 않았습니다. 나는 같은 상황에 있는 사람들이 이 코드로 문제를 해결했으면 좋겠다.
 
 ## The difference between ESP32-S3 and ESP32(about LCPWM)
-|?|ESP32|ESP32S3|
-|:---:|:---:|:---:|
-|channel|16|8|
-|bit width|16|14|
+| |ESP32|ESP32S3|
+|:--:|:--:|:-:|
+|channel|16|**8**|
+|bit width|16|**14**|
 위와 같은 차이때분에 기존 라이브러리들이 동작을 안한다.
 Due to the above difference, existing libraries do not work on ESP32-S3.
 
