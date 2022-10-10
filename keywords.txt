@@ -1,0 +1,3 @@
+s3servo		KEYWORD1
+write		KEYWORD2
+writeDuty	KEYWORD2
